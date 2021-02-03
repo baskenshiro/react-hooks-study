@@ -13,7 +13,7 @@ const App = () => {
         </div>
 
         <div className="form-group">
-          <label htmlFor="formEventBody">ボディー</label>
+          <label htmlFor="formEventBody">ボディ</label>
           <textarea className="form-control" id="formEventBody" />
         </div>
 
@@ -27,7 +27,7 @@ const App = () => {
           <tr>
             <th>ID</th>
             <th>タイトル</th>
-            <th>ボディー</th>
+            <th>ボディ</th>
             <th></th>
           </tr>
         </thead>
