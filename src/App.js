@@ -23,7 +23,7 @@ const App = props => {
 
   return (
     <>
-      <p>現在の{name}は、{price}円です{renderPeriod()}</p>
+      <p>{name}は、{price}円です{renderPeriod()}</p>
       <button onClick={() => setState({...state, price: price + 1})}>+1</button>
       <button onClick={() => setState({...state, price: price - 1})}>-1</button>
       <button onClick={() => setState(props)}>reset</button>
